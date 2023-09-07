@@ -1,18 +1,45 @@
-## Getting Started
+<h3 align="center">Flood It Clone</h3>
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## About The Project
 
-## Folder Structure
+This project the famous Flood It game, where the user clicks on cells to fill the grid with one color. Although this is a replica, both the design and implementation are uniquely developed.
 
-The workspace contains two folders by default, where:
+### Installation
+*you must have a JRE that supports class file version 61.0)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+1. Clone the repo
+   ```sh
+   git clone https://github.com/lphan48/FloodItClone
+   ```
+2. Navigate to project directory
+   ```sh
+   cd YourPathname
+   ```
+3. Run the game
+   ```sh
+   java -jar FloodItClone.jar
+   ```
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Usage
+The project begins with a randomly generated board of cells:
 
-## Dependency Management
+<img width="300" alt="Screenshot 2023-09-06 at 7 52 41 PM" src="https://github.com/lphan48/FloodItClone/assets/116211528/ea2a0644-5216-469e-ad2e-473fa326f327">
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+
+
+Starting from the top leftmost cell, clicking any cell will flood the board to that color (the following image is several turns ahead from the beginning):
+
+<img width="300" alt="Screenshot 2023-09-06 at 7 53 43 PM" src="https://github.com/lphan48/FloodItClone/assets/116211528/8bddeea4-dd74-421b-ae1c-9c8bc9c8a91a">
+
+
+
+
+The game ends when either the grid is entirely one color, or the user exceeds the amount of turns indicated in the bottom right corner:
+
+<img width="300" alt="Screenshot 2023-09-06 at 7 55 42 PM" src="https://github.com/lphan48/FloodItClone/assets/116211528/9c19d917-8dda-4575-a63c-332d89b35534">
+
+
+
