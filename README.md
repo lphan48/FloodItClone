@@ -23,8 +23,6 @@ To run the game, you must have a JRE that supports class file version 61.0 or hi
    java -jar FloodItClone.jar
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Usage
 The project begins with a randomly generated board of cells:
 
