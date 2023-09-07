@@ -2,7 +2,7 @@
 
 ## About The Project
 
-This project the famous Flood It game, where the user clicks on cells to fill the grid with one color. Although this is a replica, both the design and implementation are uniquely developed.
+This project mimics the Flood It game, where users have limited chances to click on cells and fill a square grid with one color. Although this is a replica, both the design and implementation are uniquely developed.
 
 ### Dependencies
 
