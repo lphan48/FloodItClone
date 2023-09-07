@@ -4,18 +4,21 @@
 
 This project the famous Flood It game, where the user clicks on cells to fill the grid with one color. Although this is a replica, both the design and implementation are uniquely developed.
 
-### Installation
-(you must have a JRE that supports class file version 61.0)
+### Dependencies
 
-1. Clone the repo
+To run the game, you must have a JRE that supports class file version 61.0 or higher.
+
+### Installation
+
+1. Clone the repo:
    ```sh
    git clone https://github.com/lphan48/FloodItClone
    ```
-2. Navigate to project directory
+2. Navigate to project directory:
    ```sh
-   cd YourPathname
+   cd FloodItClone
    ```
-3. Run the game
+3. Run the game by executing the main JAR file, located in the project's root directory:
    ```sh
    java -jar FloodItClone.jar
    ```
