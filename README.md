@@ -5,7 +5,7 @@
 This project the famous Flood It game, where the user clicks on cells to fill the grid with one color. Although this is a replica, both the design and implementation are uniquely developed.
 
 ### Installation
-*you must have a JRE that supports class file version 61.0)
+(you must have a JRE that supports class file version 61.0)
 
 1. Clone the repo
    ```sh
